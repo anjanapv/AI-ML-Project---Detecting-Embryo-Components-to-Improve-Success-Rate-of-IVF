@@ -79,9 +79,27 @@ Standard morphological assessment of the embryo by the embryologist has always b
 
 
 <a name="Steps_To_Follow"/>
-## Steps To Follow
----snip----
 
+## 9. **Steps To Follow**
+
+To run the algorithm please follow these steps:  
+
+1. Install the TensorFlow(version 1.15). Follow the instruction from here: https://www.tensorflow.org/install/
+2. Pre-trained Models of CNN architectures should be downloaded from the "Pre-trained Models" part of https://github.com/wenwei202/terngrad/tree/master/slim#pre-trained-models and be located in your machine (e.g. AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/run/checkpoint). The files for pre-trained models should be available under the folder named "Checkpoint".
+3. **_NUM_CLASSES** should be set as 2 ( as we are classifying the embryo into good or poor ) in embryo.py python file (this script is located in STORK/scripts/slim/datasets).
+4. Run the convert.py (it is located in the "AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts" directory) to allocate the suitable percentage of images to train and validation sets. The convert.py needs three arguments: the address of images for training, the address of where the result will be located, and the percentage of validation images for the training step:  
+
+
+```
+
+$ python convert.py ../Images/train process/ 0
+
+```
+- Keep the percentage of validation images as 0 because we set 15% for validation inside the code.
+
+- It will save converted .tf files in the "process" directory.
+
+5. 
 
 
 
