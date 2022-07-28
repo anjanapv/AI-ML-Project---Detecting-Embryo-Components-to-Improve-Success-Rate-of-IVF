@@ -94,8 +94,9 @@ if __name__ == '__main__':
 	for p in range(len(preds)):
 		print (image_list[p], preds[p,:], np.argmax(preds[p,:]))
 		fto.write(image_list[p])
+		fto.write("***")
 		for j in range(len(preds[p,:])):
-			fto.write('\t' + str(preds[p, j]))
+			fto.write('>>' + str(preds[p, j]))
 		fto.write('\n')
 
 	fto.close()
