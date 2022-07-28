@@ -111,7 +111,7 @@ The following open source packages are used in this project:
 <h2 id="contributors"> :writing_hand: Contributors</h2>
 
 <p align="justify">
-  :mortar_board: <i>All participants in this project are post graduate students of the Data Analytics for Business course</a> <b> @ </b> <a href="https://www.stclaircollege.ca/">St. Clair College</a><i> <br> <br>
+  :mortar_board: <i>All participants in this project are post graduate students of the Data Analytics for Business course</a> <b> @ </b> <a href="https://www.stclaircollege.ca/">St. Clair College</a></i>
   
   :girl: <b>Anjana Padikkal Veetil</b> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>AP202@myscc.ca</a> <br>
