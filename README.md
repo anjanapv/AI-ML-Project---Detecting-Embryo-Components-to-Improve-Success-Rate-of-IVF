@@ -71,7 +71,17 @@ The following open source packages are used in this project:
 
 <!-- DATASET -->
 <h2 id="dataset"> :open_file_folder: Dataset</h2>
----snip----
+
+<p align="justify">
+Source : STORK Framework.
+Training Images : Good 42, Poor 42
+Test Images: 14
+This image dataset is publicly available and taken from the GitHub repository of STOCK, these images of human embryos were obtained from the Centre for Reproductive Medicine at Weill Cornell Medicine. There are total of 98 images. This image dataset was already in jpg format.
+</p>
+
+<p align="center">
+  <img width="70%" src=Docs/dataset.jpg>
+</p>
 
 ![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -88,7 +98,13 @@ The following open source packages are used in this project:
 <a name="Methodology"/>
 
 <h2 id="Methodology"> :scroll: Methodology</h2>
----snip----
+
+<p align="justify">
+    
+A Deep Neural Network (DNN) is used for embryo image analysis based on Google’s Inception-V1 architecture. The STORK repository had multiple pre-trained models out of which Inception V1 is best suitable for image classification. We have used STORK framework to predict blastocyst quality into good or poor.
+This study included a total of 98 blastocyst images, and the data is divided into two parts, 85% of the images (84) are used for training the model and the remaining 15% images (14) are used for testing the trained model.
+    
+</p>
 
 ![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
