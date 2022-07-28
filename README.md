@@ -49,10 +49,14 @@ Standard morphological assessment of the embryo by the embryologist has always b
 -- Tensorflow Version 1.15
 </p>
 
+***
+
 <a name="Dataset"/>
 
 ## 3. **Dataset**
 ---snip----
+
+***
 
 <a name="Data_Pipeline"/>
 
@@ -62,22 +66,31 @@ Standard morphological assessment of the embryo by the embryologist has always b
   <img width="100%" src=Docs/pipeline.png>
 </p>
 
+***
+
 <a name="Methodology"/>
 ## Methodology
 ---snip----
+
+***
 
 <a name="Results_and_Discussion"/>
 ## Results and Discussion
 ---snip----
 
+***
+
 <a name="References"/>
 ## References
 ---snip----
+
+***
 
 <a name="Contributors"/>
 ## Contributors
 ---snip----
 
+***
 
 <a name="Steps_To_Follow"/>
 
@@ -94,8 +107,9 @@ To run the algorithm please follow these steps:
 <p align="justify">
 2. Pre-trained Models of CNN architectures should be downloaded from the "Pre-trained Models" part of https://github.com/wenwei202/terngrad/tree/master/slim#pre-trained-models and be located in your machine (e.g. AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/run/checkpoint). The files for pre-trained models should be available under the folder named "Checkpoint".
 </p>
+
 <p align="justify">
-3. **_NUM_CLASSES** should be set as 2 ( as we are classifying the embryo into good or poor ) in embryo.py python file (this script is located in AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/datasets).
+3. _NUM_CLASSES should be set as 2 ( as we are classifying the embryo into good or poor ) in embryo.py python file (this script is located in AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/datasets).
 </p>
 
 <p align="justify">
@@ -112,7 +126,7 @@ $ python convert.py ../Images/train process/ 0
 </p>
 
 <p align="justify">
-5. The Inception-V1 architecture should be run on the Train images from the "AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim" directory. First go to the following directory: STORK/scripts/slim. Then open load_inception_v1.sh located in "run/" directory and edit PRETRAINED_CHECKPOINT_DIR,TRAIN_DIR, and DATASET_DIR addresses. See the load_inception_v1.sh, for instance. 
+5. The Inception-V1 architecture should be run on the Train images from the "AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim" directory. First go to the following directory: AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim. Then open load_inception_v1.sh located in "run/" directory and edit PRETRAINED_CHECKPOINT_DIR,TRAIN_DIR, and DATASET_DIR addresses. See the load_inception_v1.sh, for instance. 
 Then, run the following command in shell script:
 
 ```
@@ -147,9 +161,14 @@ $ python predict.py v1 ../result/ ../../Images/test output.txt 2
 </p>
 
 <p align="justify">
-The generated output.txt file would look like this.
+The generated output.txt file would look like this.  
+
+>> Image name along with its image path / Probability of being a good embryo / Probability of being a bad embryo
+
 </p>
 
-
+<p align="center">
+  <img width="70%" src=Docs/output.png>
+</p>
 
 
