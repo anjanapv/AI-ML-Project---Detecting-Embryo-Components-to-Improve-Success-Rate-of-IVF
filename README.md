@@ -1,4 +1,78 @@
-# AI-ML-Project---Detecting-Embryo-Components-to-Improve-Success-Rate-of-IVF
-Capstone Group Project
+# AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF
 
-The most prevalent fertility procedure, in-vitro fertilisation (IVF), has never attained its full potential. A systematic selection of embryos with the best implementation potential is a key step in improving IVF efficacy. The embryologist assesses the viability of the embryo by manually examining its components under a microscope. Semantic segmentation can discover critical components of human embryos for computational analysis, thanks to the success of deep learning in the medical diagnosis sector. Manual evaluation of embryo components is a critical activity that necessitates close monitoring by embryologists; although, this process may be automated using AI-based algorithms. 
+
+This project is a recreation of STORK repository [Github Link to STORK](https://github.com/ih-lab/STORK) which is used for embryo classification.
+
+
+***
+<details><summary>Table of Contents</summary>  
+
+1.[About the Project](#ATP)  
+2.[Prerequisites](#Prerequisites)  
+3.[Folder Structure](#Folder_Structure)  
+4.[Dataset](#Dataset)  
+5.[Data_Pipeline](#Data_Pipeline)  
+6.[Methodology](#Methodology)   
+7.[Results and Discussion](#Results_and_Discussion)   
+8.[References](#References)   
+9.[Contributors](#Contributors)   
+</details>
+
+
+<a name="ATP"/>
+
+## 1. **About the project**
+<p align="justify">
+Infertility is defined as a clinical condition of inability to conceive or get pregnant after one year or longer of unprotected sex. IVF stands for In vitro fertilization. It is a type of assistive reproductive technology (ART) for infertility treatment and surrogacy. Surrogacy is an arrangement where another woman agrees to labour deliver for another person where pregnancy is medically impossible. Approximately 16% which is 1 in 6 couples in Canada experience infertility (UCLA Health, 2020). This number has doubled since the 1980’s. Apart from the emotional trauma a couple goes through during their journey of infertility they have to invest a lot of time and money into the IVF process.
+</p>
+
+<p align="justify">
+The below figure explains the whole IVF process step by step. IVF involves many steps, and each cycle would take an average duration of 6 to 8 weeks. At first the individual would undergo an initial consultation and testing with an infertility specialist and would be prescribed medication for ovarian stimulation in which the ovary is stimulated to produce multiple healthy eggs. Then the doctor retrieves the eggs from the woman’s ovary. The retrieved eggs are fertilized with the sperm from the semen sample of a partner or a sperm donor in a culture medium in a laboratory. The fertilized egg undergoes embryo culture where the fertilized eggs are allowed to grow in an artificial medium (incubator) under supervision. After 3 – 5 days once the embryo reaches the blastocyst stage, the best embryos are selected by the embryologists based on the morphological attributes and are transferred into the woman’s uterus. After two weeks of embryo transfer the couple undergoes for a pregnancy test and the success of the IVF process is determined.
+</p>
+
+![Alt Text](Path_to_image)
+
+<p align="justify">
+Standard morphological assessment of the embryo by the embryologist has always been the major tool for selecting the best embryo for transfer.One cycle of an IVF process takes 6 to 8 weeks. On an average 3 IVF cycles is found to be clinically effective. The average cost of one round of IVF is estimated to be $15000, with a success rate of less than 50% per embryo transfer.Manual assessment may result in human error based on their experience, intuition and expertise. Multiple viable blastocysts were transferred to increase the chances of pregnancy, but this would result in multiple pregnancies and gestational complications in the mothers and babies. Therefore, identifying the single best viable blastocyst is recommended which would reduce the number of cycles administered and eliminate multiple pregnancies and other related issues. Our project aims at building a supervised learning classification model to classify the embryo based on their quality into good or bad thereby eliminating the factor of human error and the need for multiple cycles.
+</p>
+
+**
+
+<a name="Prerequisites"/>
+## Prerequisites
+---snip----
+
+<a name="Folder_Structure"/>
+## Folder Structure
+---snip----
+
+<a name="Dataset"/>
+## Dataset
+---snip----
+
+<a name="Data_Pipeline"/>
+## Data Pipeline
+---snip----
+
+<a name="Methodology"/>
+## Methodology
+---snip----
+
+<a name="Results_and_Discussion"/>
+## Results and Discussion
+---snip----
+
+<a name="References"/>
+## References
+---snip----
+
+<a name="Contributors"/>
+## Contributors
+---snip----
+
+
+
+
+
+
+
