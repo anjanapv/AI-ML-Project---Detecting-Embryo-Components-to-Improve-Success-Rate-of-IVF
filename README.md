@@ -45,8 +45,10 @@ Standard morphological assessment of the embryo by the embryologist has always b
 
 ## 2. **Prerequisites**
 <p align="justify">
+    
 -- Python Version 2.7  
 -- Tensorflow Version 1.15
+    
 </p>
 
 ***
@@ -171,4 +173,10 @@ The generated output.txt file would look like this.
   <img width="70%" src=Docs/output.png>
 </p>
 
+<p align="justify">
+7. The accuracy can be measured using accuracy measurement codes ("acc.py") in "useful" folder. The output.txt file should be in the same folder that you are running acc.py. Then run the following code:  
+</p>
 
+```
+$ python acc.py
+```
