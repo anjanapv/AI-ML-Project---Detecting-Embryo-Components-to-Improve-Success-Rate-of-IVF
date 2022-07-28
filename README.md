@@ -58,7 +58,7 @@ Standard morphological assessment of the embryo by the embryologist has always b
 ## 3. **Data Pipeline**
 
 <p align="center">
-  <img width="100%" src=Docs/pipeline.jpeg>
+  <img width="100%" src=Docs/pipeline.png>
 </p>
 
 <a name="Methodology"/>
