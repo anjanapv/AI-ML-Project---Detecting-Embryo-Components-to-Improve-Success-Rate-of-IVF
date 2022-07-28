@@ -125,7 +125,13 @@ So, to classify the embryo, we leveraged a deep neural network to identify the q
 <a name="References"/>
 
 <h2 id="references"> :books: References</h2>
----snip----
+
+1. A. Muhammad, H. Adnan, C. Jiho, and R. P. Kang, “Detecting Blastocyst Components by Artificial Intelligence for Human Embryological Analysis to Improve Success Rate of In Vitro Fertilization.” https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8877842/ 
+
+2. A. Kirillova et al., “Should we transfer poor quality embryos?,” Fertil. Res. Pract., vol. 6, no. 1, pp. 1–7, 2020, doi: 10.1186/s40738-020-00072-5
+3. P. F. Centre, “From consultation to embryo transfer.” https://www.pfcla.com/services/in-vitro-fertilization/overview
+4. STORK GitHub https://github.com/ih-lab/STORK/tree/master/scripts
+
 
 ![---------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
