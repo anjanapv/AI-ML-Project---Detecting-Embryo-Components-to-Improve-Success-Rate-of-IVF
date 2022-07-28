@@ -4,8 +4,12 @@
 **This project is a recreation of STORK repository [Github Link to STORK](https://github.com/ih-lab/STORK) which is used for embryo classification.**
 
 
-***
-<details><summary>Table of Contents</summary>  
+![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- TABLE OF CONTENTS -->
+<h2 id="table-of-contents"> :book: Table of Contents</h2>
+
+<details open="open"><summary>Table of Contents</summary>  
 
 1.[About the Project](#ATP)  
 2.[Prerequisites](#Prerequisites)  
@@ -18,11 +22,12 @@
 9.[Steps To Follow](#Steps_To_Follow)  
 </details>
 
-***
 
 <a name="ATP"/>
 
-## 1. **About the project**
+<!-- ABOUT THE PROJECT -->
+<h2 id="about-the-project"> :pencil: About The Project</h2>
+
 <p align="justify">
 Infertility is defined as a clinical condition of inability to conceive or get pregnant after one year or longer of unprotected sex. IVF stands for In vitro fertilization. It is a type of assistive reproductive technology (ART) for infertility treatment and surrogacy. Surrogacy is an arrangement where another woman agrees to labour deliver for another person where pregnancy is medically impossible. Approximately 16% which is 1 in 6 couples in Canada experience infertility (UCLA Health, 2020). This number has doubled since the 1980’s. Apart from the emotional trauma a couple goes through during their journey of infertility they have to invest a lot of time and money into the IVF process.
 </p>
@@ -39,64 +44,78 @@ The below figure explains the whole IVF process step by step. IVF involves many 
 Standard morphological assessment of the embryo by the embryologist has always been the major tool for selecting the best embryo for transfer.One cycle of an IVF process takes 6 to 8 weeks. On an average 3 IVF cycles is found to be clinically effective. The average cost of one round of IVF is estimated to be $15000, with a success rate of less than 50% per embryo transfer.Manual assessment may result in human error based on their experience, intuition and expertise. Multiple viable blastocysts were transferred to increase the chances of pregnancy, but this would result in multiple pregnancies and gestational complications in the mothers and babies. Therefore, identifying the single best viable blastocyst is recommended which would reduce the number of cycles administered and eliminate multiple pregnancies and other related issues. Our project aims at building a supervised learning classification model to classify the embryo based on their quality into good or bad thereby eliminating the factor of human error and the need for multiple cycles.
 </p>
 
-***
+![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <a name="Prerequisites"/>
 
-## 2. **Prerequisites**
-<p align="justify">
-    
--- Python Version 2.7  
--- Tensorflow Version 1.15
-    
-</p>
+<!-- PREREQUISITES -->
+<h2 id="prerequisites"> :fork_and_knife: Prerequisites</h2>
 
-***
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) <br>
+
+<!--This project is written in Python programming language. <br>-->
+The following open source packages are used in this project:
+* Numpy
+* TensorFlow
+* Keras
+* dataset_utils
+* math
+* os
+* random
+* sys
+* matplotlib
+
+![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <a name="Dataset"/>
 
-## 3. **Dataset**
+<!-- DATASET -->
+<h2 id="dataset"> :open_file_folder: Dataset</h2>
 ---snip----
 
-***
+![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <a name="Data_Pipeline"/>
 
-## 3. **Data Pipeline**
+<h2 id="Data_Pipeline"> :dart: Data Pipeline</h2>
 
 <p align="center">
   <img width="100%" src=Docs/pipeline.png>
 </p>
 
-***
+![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <a name="Methodology"/>
-## Methodology
+
+<h2 id="Methodology"> :scroll: Methodology</h2>
 ---snip----
 
-***
+![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <a name="Results_and_Discussion"/>
-## Results and Discussion
+
+<h2 id="Results_and_Discussion"> :mag: Results and Discussion</h2>
 ---snip----
 
-***
+![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <a name="References"/>
-## References
+
+<h2 id="references"> :books: References</h2>
 ---snip----
 
-***
+![---------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <a name="Contributors"/>
-## Contributors
+
+<h2 id="contributors"> :writing_hand: Contributors</h2>
 ---snip----
 
-***
+![-----------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <a name="Steps_To_Follow"/>
 
-## 9. **Steps To Follow**
+<h2 id="Steps_To_Follow"> :arrow_right: Steps To Follow</h2>
 
 <p align="justify">
 To run the algorithm please follow these steps:  
@@ -180,3 +199,5 @@ The generated output.txt file would look like this.
 ```
 $ python acc.py
 ```
+
+✤ <i>This was the final project for the course B016 - Data Analytics for Business(May 2021), at <a href="https://www.stclaircollege.ca/">St. Clair College</a><i>
