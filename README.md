@@ -149,11 +149,6 @@ So, to classify the embryo, we leveraged a deep neural network to identify the q
   :woman_in_tuxedo: <b>Nobin Ann Mathew</b> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>NM91@myscc.ca</a> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/NobinMath">@nobinmathew</a> <br>
-
-  :man: <b>Venkata Bhagya Teja Maridu</b> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>VM49@myscc.ca</a> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/tejamaridu">@teja</a> <br>
-
   :boy: <b>Santosh Kumar Kantimahanti Lakshmi</b> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>SK602@myscc.ca</a> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/santoshkumarklv">@santosh</a> <br>
